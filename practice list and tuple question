@@ -1,0 +1,58 @@
+# Q1. Convert List to Tuple
+
+# Given:
+
+# numbers = [10, 20, 30, 40]
+# numbers = [10,20,30,40]
+# numbers_tuple = tuple(numbers)
+# print(numbers_tuple)
+
+# Q2. Convert Tuple to List
+
+# Given:
+
+# numbers = (10, 20, 30, 40)
+# numbers = (10, 20, 30, 40)
+# result =list(numbers)
+# result.append(50)
+# print(result)
+
+# Q3. Find Maximum and Minimum
+
+# Given:
+
+# # numbers = (15, 7, 25, 10, 30)
+# numbers = (15, 7, 25, 10, 30)
+# # print("Maximum:", max(numbers))
+# # print("Minimum:", min(numbers)) 
+# # print("Sum:", sum(numbers))
+# # print("length:", len(numbers))
+
+# Q4. Count and Index
+
+# Given:
+
+# numbers = (10, 20, 30, 20, 40, 20)
+# numbers = (10, 20, 30, 20, 40, 20)
+# print(numbers.count(20))
+# print(numbers.index(30))
+
+# Q5. Remove Duplicates from a List
+
+# Given:
+
+# numbers = [10, 20, 10, 30, 20, 40]
+# numbers =[10,20,10,30,20,40]
+# result = set(numbers)
+# print(result)
+
+
+# Find the second largest unique number.
+
+# numbers = (10, 50, 20, 40, 50, 30)
+
+# unique_numbers = set(numbers)
+
+# sorted_numbers = sorted(unique_numbers)
+
+# print(sorted_numbers[-2])
